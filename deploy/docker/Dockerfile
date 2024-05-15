@@ -16,7 +16,7 @@ USER root
 RUN chown -R $NB_UID:$NB_GID /home/jovyan/work
 COPY start-up.sh /home/jovyan/start-up.sh
 RUN chmod +x /home/jovyan/start-up.sh
-RUN echo "test"
+RUN echo "test1"
 
 # Switch back to jovyan user
 USER $NB_UID
