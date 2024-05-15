@@ -3,7 +3,7 @@ name: Build, Push, and Deploy to Minikube
 on:
   push:
     paths:
-      - 'docker/Dockerfile'
+      - 'deploy/docker/Dockerfile'
 
 jobs:
   build-and-deploy:
