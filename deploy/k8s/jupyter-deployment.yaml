@@ -33,4 +33,3 @@ spec:
       - name: jupyter-storage
         persistentVolumeClaim:
           claimName: jupyter-pvc
-
