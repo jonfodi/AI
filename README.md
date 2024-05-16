@@ -14,8 +14,9 @@ The second goal is to deploy the training workload on multiple cloud instances a
 - install Docker on your machine https://docs.docker.com/engine/install/
 
 1) execute: ./deploy/docker/run_docker.sh 1
-2) open a browser and go to localhost:8000
-3) enter jupyter notebook (password = test)
-4) open a shell and run !python /home/jovyan/work/run_all.py
-5) training plots will be available at /home/jovyan/work/training_plots.png
+     - make sure you're in the root of the repo (/AI)
+3) open a browser and go to localhost:8000
+4) enter jupyter notebook (password = test)
+5) open a shell and run !python /home/jovyan/work/run_all.py
+6) training plots will be available at /home/jovyan/work/training_plots.png
 
